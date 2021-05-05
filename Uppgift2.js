@@ -9,11 +9,12 @@ export const Uppgift2 = () => {
 		<div>
 			<h1>Uppgift 2</h1>
 			
-			<h2>Click för att se nummer stiger upp</h2>
+			<h2>Clicka på nummret för att se att den stiger upp</h2>
 			<h1 onClick = {() => setCounter(counter + 1)}>{counter}</h1>
 		</div>
 	)
 }
+
 
 /*
 
